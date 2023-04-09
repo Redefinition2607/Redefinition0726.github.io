@@ -5,6 +5,32 @@
     <link rel="shortcut icon" href="../img/logo.ico">
     <link href="../css/style.css" rel="stylesheet">
     <title>BlueSky0726的个人网站 | 应用</title>
+    <style>
+    .appbutton {
+        line-height:100px;
+        text-align: center;
+        -webkit-transition-duration: 0.6s;
+        transition: 0.6s;
+        border-radius: 10px;
+        background-color: #6495ed;
+        border: none;
+        color: #ffffff;
+        width: 300px;
+        height: 200px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 35px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+    .appbutton:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        background-color: #f0ffff;
+        color: #333;
+    }
+    </style>
 </head>
 
 <body style="background-color: #e0ffff;">
@@ -15,12 +41,19 @@
         <a href="./index.html" class="button"><b>应用</b></a>
     </nav>
     <header>
-        <h1>BlueSky0726的个人网站</h1>
+        <h1>BlueSky0726的个人应用站</h1>
     </header>
     <main>
-        <h2>BlueSky0726的个人应用站</h2>
-        <p><a href="./Password/index.html" target="_blank">密码强度检测</a></p>
-        <p><a href="./Code-Rain/index.html" target="_blank">代码雨</a></p>
+        <a href="./Password/index.html" target="_blank">
+            <div class="appbutton">
+                <p>密码强度检测</p>
+            </div>
+        </a>
+        <a href="./CodeRain/index.html" target="_blank">
+            <div class="appbutton">
+                <p>代码雨</p>
+            </div>
+        </a>
     </main>
     <!-- <footer>
         <p>版权所有 &copy; 2023</p>
